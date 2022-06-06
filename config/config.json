@@ -1,0 +1,62 @@
+{
+
+    "KEYS": {
+        "API": "",
+        "SECRET": ""
+    },
+  
+    "INVESTMENT": {
+        "USDT": {
+          "MIN": 50,
+          "MAX": 100,
+          "STEP": 2
+        },
+        "BUSD": {
+            "MIN": 50,
+            "MAX": 100,
+            "STEP": 2
+        },
+        "BNB": {
+            "MIN": 0.5,
+            "MAX": 1,
+            "STEP": 0.02
+        }
+    },
+  
+    "SCANNING": {
+        "DEPTH": 50,
+        "WHITELIST": []
+    },
+  
+    "EXECUTION": {
+        "ENABLED": false,
+        "CAP": 0,
+        "STRATEGY": "linear",
+        "TEMPLATE": ["BUY", "SELL", "SELL"],
+        "FEE": 0.075,
+        "THRESHOLD": {
+            "PROFIT": 1.00,
+            "AGE": 25
+        }
+    },
+  
+    "HUD": {
+        "ENABLED": true,
+        "ROWS": 10,
+        "REFRESH_RATE": 500
+    },
+  
+    "LOG": {
+        "LEVEL": "debug",
+        "COLORIZE": false,
+        "STATUS_UPDATE_INTERVAL": 2
+    },
+
+    "WEBSOCKET": {
+        "BUNDLE_SIZE": 4,
+        "INITIALIZATION_INTERVAL": 400
+    },
+
+    "BINANCE_OPTIONS": {}
+
+}
